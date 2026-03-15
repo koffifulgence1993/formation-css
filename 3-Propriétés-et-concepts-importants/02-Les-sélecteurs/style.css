@@ -1,0 +1,87 @@
+/* Sélecteur universel et simple reset */
+
+
+/* * a une spécifité de 0  */
+*,::before,::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Par type : p, h1, form */
+h1{
+  color: red;
+  font-size: 20px;
+}
+
+
+/* Par classe / id */
+
+.title{
+  color: lightblue;
+}
+#title{
+  color:rgb(164, 238, 27)
+}
+
+/* Combinaison */
+
+#title.title{
+  color: brown;
+} 
+
+/* Sélecteurs avancés +~> */
+h1 + ul{
+  color: blueviolet;
+}
+
+
+
+
+/* Les pseudo-classes de position */
+/* Sélectionne le deuxième enfant du parent,
+peu importe le type d'élément */
+
+/*
+li:nth-child(2){
+  color: red;
+}
+
+/* Sélectionne le deuxième élément de type <li>
+parmi les éléments <li> du parent */
+li:nth-of-type(2){
+  color: rgb(0, 255, 47);
+}
+
+/* Sélectionne le premier enfant du parent
+si cet enfant est un <li> */
+li:first-child{
+  color: rgb(255, 0, 212);
+}
+
+/* Sélectionne le dernier élément <li>
+parmi les <li> du parent */
+li:last-of-type{
+  color: rgb(255, 145, 0);
+}
+
+/* :not() */
+
+li:not(:nth-last-of-type(3)){
+  background: blue;
+}
+
+li:not(.muted){
+  background: red;
+}
+
+/* Petit rajout dont je ne parle pas dans la vidéo. */
+
+/* Assembler plusieurs sélections avec la virgule (,) */
+
+/* Ex : Tous les h1 ET tous les h2 ET tous les paragraphes. */
+
+h1, h2, p {
+  color: crimson;
+} 

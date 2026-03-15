@@ -1,0 +1,41 @@
+body {
+  background: #222;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background: orange;
+}
+/*
+.card:hover{
+  background: chartreuse;
+  border-radius: 5px;
+  height: 400px;
+}*/
+.card:active{ /*déclenchement au clic*/
+  background: teal;
+}
+
+
+input {
+  width: 50px;
+  height: 50px;
+}
+input:checked{
+  accent-color: red;
+}
+
+button {
+  padding: 10px 14px;
+  font-size: 20px;
+}
+
+button:focus{
+  background-color: coral;
+}
+
+a:visited{
+  color: green;
+  text-decoration-color: hotpink;
+}
