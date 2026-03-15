@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+img{
+  width: 400px;
+  height: 250px;
+  object-fit: cover; ne pas deformer l'image
+  object-position: right; faire deplacer l'objectif
+}
+*/
+
+.hero-section{
+  height: 100vh;
+  background-color: coral;
+  background: #000;
+  background-image: url("./images/nature.jpg");
+  background-position: center; 
+  background-size: cover;
+}

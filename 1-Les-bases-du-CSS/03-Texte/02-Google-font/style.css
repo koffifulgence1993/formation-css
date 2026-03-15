@@ -1,0 +1,29 @@
+/*@font-face{
+    font-family:"Stay Classy";
+    src:url("./utiliser-une-police-personnalise/font/Stay\ Classy\ SLDT.otf,"),
+    url("./utiliser-une-police-personnalise/font/Stay\ Classy\ SLDT.ttf")
+} */
+@font-face {
+    font-family:"Switzer-Black";
+    src: url(./utiliser-une-police-personnalise/font/Switzer-Black.otf),
+    url(./utiliser-une-police-personnalise/font/Switzer-Variable.ttf)
+}
+@font-face {
+    font-family: "Poppin-Story";
+    src: url(./utiliser-une-police-personnalise/font/Poppin-Story.ttf);
+}
+
+
+h1{
+    font-family:Poppin-Story;
+    font-size: 100px;
+    text-align: center;
+    font-weight:500;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.4;
+    
+}

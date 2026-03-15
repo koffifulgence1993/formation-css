@@ -1,0 +1,35 @@
+body {
+  background-color: #333;
+  color: cornsilk;
+}
+
+/* Titre */
+h1{
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+
+/* Lien */
+a{
+  color: #fff;
+  text-decoration: underline  red;
+  background: green;
+  cursor: pointer;
+}
+
+
+/* Paragraphe */
+p{
+  font-size: 18px;
+  list-style: 2.5;
+  text-transform: uppercase;
+}
+
+  
+/* Listes */
+ul{
+  list-style-type: none;
+}

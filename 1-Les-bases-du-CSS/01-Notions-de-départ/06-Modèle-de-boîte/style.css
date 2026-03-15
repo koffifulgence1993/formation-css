@@ -1,0 +1,15 @@
+.box{
+    background-color: aqua;
+    height: 200px;
+    width: 710px;
+    border:10px solid yellow ;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+*, ::before, ::after{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
