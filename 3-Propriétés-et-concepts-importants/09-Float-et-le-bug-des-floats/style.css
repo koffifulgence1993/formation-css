@@ -2,7 +2,15 @@
   width: 800px;
   margin: 0 auto;
   background: blueviolet;
+  
 }
+.container::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
 
 .box {
   height: 200px;
@@ -11,7 +19,10 @@
 
 .box-1 {
   background: crimson;
+  float: right;
 }
 .box-2 {
   background: turquoise;
+  float: left;
+
 }

@@ -64,3 +64,11 @@
   --light-dark-border: 1px solid var(--lighter-dark);
   --dark-thick-border: 2px solid var(--lighter-dark);
 }
+
+html{
+  font-size: 16px;
+}
+
+h1{
+  font-size:var(--fs-40);
+}

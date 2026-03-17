@@ -9,3 +9,45 @@ body {
   padding-top: 100px;
   text-align: center;
 }
+
+.layered-text{
+  font-size: 225px;
+  font-weight: 800;
+  background-clip: border-box;
+  color:#efefef;
+  text-shadow: 
+  1px 1px #919191,
+  1px 2px #919191,
+  1px 3px #919191,
+  1px 4px #919191,
+  1px 5px #919191,
+  1px 6px #919191,
+  1px 7px #919191,
+  1px 8px #919191,
+  1px 9px #919191,
+  1px 18px 6px #2d2d2d66,
+  1px 22px 10px #2d2d2d66,
+  1px 25px 35px #2d2d2d66,
+  1px 30px 60px #2d2d2d66
+  ;
+}
+
+.para{
+  font-size: 200px;
+  color:aqua;
+  background-clip: border-box;
+  text-shadow: 
+  1px 1px #919191,
+  1px 2px #919191,
+  1px 3px #919191,
+  1px 4px #919191,
+  1px 5px #919191,
+  1px 6px #919191,
+  1px 7px #919191,
+  1px 8px #919191,
+  1px 9px #919191,
+  1px 18px  6px #2d2d2d66,
+  1px 22px 10px #2d2d2d66,
+  1px 25px 35px #2d2d2d66,
+  1px 30px 60px #2d2d2d66
+}

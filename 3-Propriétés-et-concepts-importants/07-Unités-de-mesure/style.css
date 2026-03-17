@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #222;
+  background: #da8989;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,3 +21,29 @@ body {
 }
 
 /* Contenu */
+.percentage{
+  width: 50%;
+  margin: auto;
+}
+
+.pixels{
+  width: 400px;
+}
+
+.vw{
+  width: 50vw;
+  width: 90vmin;
+  width: 100vmax; 
+}
+
+.vh{
+  width: 100vh;
+}
+
+.parent{
+  font-size: 20px;
+}
+
+.child{
+  font-size: 2rem;
+}

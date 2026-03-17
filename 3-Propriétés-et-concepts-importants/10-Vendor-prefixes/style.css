@@ -7,10 +7,30 @@
 -ms-      : (Internet Explorer and Microsoft Edge, before Chromium) */
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 100px;
-  font-weight: 900;
-  text-transform: uppercase;
-  background-image: linear-gradient(45deg, gold, red);
+  /* Définit la police principale (Arial), avec des alternatives si elle n'est pas disponible */
+font-family: Arial, Helvetica, sans-serif;
+
+/* Centre le texte horizontalement */
+text-align: center;
+
+/* Définit une grande taille de texte (100 pixels) */
+font-size: 100px;
+
+/* Rend le texte très épais (gras maximum) */
+font-weight: 900;
+
+/* Transforme tout le texte en majuscules */
+text-transform: uppercase;
+
+/* Applique un dégradé de couleur (or → rouge) en arrière-plan */
+background-image: linear-gradient(45deg, gold, red);
+
+/* Permet d’appliquer le fond uniquement sur le texte */
+background-clip: text;
+
+/* Version compatible pour les navigateurs WebKit (Chrome, Safari) */
+-webkit-background-clip: text;
+
+/* Rend la couleur du texte transparente pour laisser apparaître le dégradé */
+color: transparent;
 }
