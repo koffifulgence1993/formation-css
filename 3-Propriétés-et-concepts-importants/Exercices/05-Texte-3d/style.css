@@ -51,3 +51,22 @@ body {
   1px 25px 35px #2d2d2d66,
   1px 30px 60px #2d2d2d66
 }
+
+.java{
+  font-size: 100px;
+  background-clip: border-box;
+  color: brown;
+  text-shadow:
+  1px 2px #0821c5,
+  1px 3px #0821c5,
+  1px 4px #0821c5,
+  1px 5px #0821c5,
+  1px 6px #0821c5,
+  1px 7px #0821c5,
+  1px 8px #0821c5,
+  1px 9px #0821c5,
+  1px 18px 6px #919191,
+  1px 22px 10px #919191,
+  1px 35px 15px #919191;
+
+}

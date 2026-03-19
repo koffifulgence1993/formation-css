@@ -1,0 +1,132 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background: #333;
+  color: #f1f1f1;
+}
+
+
+p {
+  font-size: 35px;
+
+}
+
+
+/* max-width = en dessous de xxx */
+@media screen and(max-width: 1000px) {
+  .txt-1{
+      color: yellow;
+
+  }
+
+}
+
+
+/* min-width = au-dessus de xxx */
+@media (min-width:1000px){
+  .txt-2{
+    color: green;
+  }
+}
+
+
+/* height */
+/* @media (height:600px){
+  
+.txt-1{
+  background:red;
+}
+} */
+
+
+/* width */
+/* @media (width:600px){
+  
+    .txt-2{
+      background-repeat:#6445d4;
+    }
+} */
+
+
+
+
+/* all(défaut), screen, print */
+/* opérateurs and, not, ",", only */
+
+/* and pour créer des intervalles */
+/* @media (min-width:500px) and (max-width:1000px){
+  .txt-1{
+    background: magenta;
+  }
+} */
+
+
+
+
+/* not pour la négation */
+@media not (min-width:300px){
+  .txt-2{
+    background: #61dd09;
+  }
+}
+
+
+
+/* la virgule "," pour assembler plusieurs medias */
+
+@media (min-width:500px), (max-width:1000px){
+  .txt-1{
+    background: magenta;
+  }
+} 
+
+
+/* Seulement quand hover est supporté, pas en mode mobile */
+@media (hover: hover){
+  p:hover{
+    background: yellow;
+  }
+}
+
+
+
+/* prefers-color-scheme pour le dark / light mode*/
+
+@media (prefers-color-scheme: dark){
+  body{
+    background: #222;
+    color: #f1f1f1!important;
+  }
+}
+
+
+
+/* coarse = grossier = petit écran(doigt) */
+
+@media (pointer: coarse) {
+  body{
+    background: lightgreen;
+  }
+  
+}
+
+
+
+/* Orientation du téléphone / Tablette */
+@media (orientation: portrait){
+  body{
+    background: #6445d4;
+  }
+}
+
+@media (orientation: landscape){
+  body{
+    background: #6445d4;
+  }
+}   
+
